@@ -1,12 +1,10 @@
 {
     "name": "Orange",
-    "description": "<p>Discover our growing portfolio of APIs to tap into our major platforms and services. Create your free account, and you&rsquo;re ready to use them right away. We work openly with developers, start-ups, enterprises and partners. This gives us scope to imagine and create services with a focus on making life better. Orange Partner is your business hub for engaging with Orange. We encourage developers, IT services companies, digital agencies, major brands, internet players, start-ups and telecoms operators to discover our open innovation programs or access our API portfolio.<\/p>",
-    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28246-developer-orange-com.jpg",
+    "description": "Orange Partner independent and professional developers to IT services firms.",
+    "image": "https:\/\/s3.amazonaws.com\/kinlane-productions\/api-evangelist\/api-butterfly.png",
     "tags": [
-        "api provider",
         "have api",
-        "isp",
-        "networks",
+        "identities",
         "telecommunications"
     ],
     "created": "2019-12-19",
@@ -17,14 +15,22 @@
         {
             "name": "Orange",
             "description": null,
-            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28246-developer-orange-com.jpg",
-            "humanURL": "https:\/\/developer.orange.com",
+            "image": "https:\/\/s3.amazonaws.com\/kinlane-productions\/api-evangelist\/api-butterfly.png",
+            "humanURL": "http:\/\/www.orangepartner.com",
             "baseURL": "",
             "tags": [],
             "properties": [
                 {
                     "type": "x-openapi",
                     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/orange-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/orange-postman-collection.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/orange-postman-collection.json"
                 }
             ]
         }
@@ -33,19 +39,35 @@
     "x-common": [
         {
             "type": "Crunchbase",
-            "url": "https:\/\/crunchbase.com\/organization\/orange"
+            "url": "https:\/\/crunchbase.com\/organization\/orange-partner"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/orange"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/www.orangepartner.com\/integrate"
         },
         {
             "type": "Github",
-            "url": "https:\/\/github.com\/Orange-OpenSource"
+            "url": "https:\/\/github.com\/orange"
         },
         {
             "type": "Twitter",
-            "url": "https:\/\/twitter.com\/orange"
+            "url": "https:\/\/twitter.com\/OrangePartner"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/OrangeGroupPR"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/orangeapi"
         },
         {
             "type": "Website",
-            "url": "https:\/\/developer.orange.com"
+            "url": "http:\/\/www.orangepartner.com"
         }
     ]
 }
